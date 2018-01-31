@@ -1,7 +1,7 @@
 img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 26em;
+    height: 26em;
     object-fit: cover;
     margin-top: 5%;
 }
@@ -81,9 +81,11 @@ body{
 @media only screen and (max-width: 620px){
 	.img-lable-one{
 		top: 62%;
+		font-size: 2em;
 	}
 	.img-lable-two{
 		top:85%;
+		font-size: 1.5em;
 	}
 }
 @media only screen and (max-width: 375px){
