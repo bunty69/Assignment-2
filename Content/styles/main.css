@@ -71,6 +71,20 @@ body{
    left: 0; 
    width: 100%; 
 }
+.dlLable{
+    display: inline-block;
+    margin: 2%;
+    position: relative;
+    white-space: nowrap;
+}
+
+.dlLink:hover{
+	transition: color 0.4s ease 0s;
+	transition: background-color 0.4s ease 0s;
+	color: white;
+	background-color: #E8634E;
+	padding:2%;
+}
 
 .footer{
 	background-color: #483d8b;
