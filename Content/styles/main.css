@@ -1,0 +1,93 @@
+img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 5%;
+}
+
+body{
+	background-color: #E5E2D3;
+	font-family: cursive;
+}
+.margin-reset{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.h12{
+	width: 15%;
+    border: 1px solid #808080;
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+.social-media-icon{
+	width: 25px;
+	height: 25px;
+	border-radius: unset;
+}
+.horizontal-line-margin{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.mt-2{
+	margin-top: 2%;
+}
+.content-div-margin{
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+.font_1{
+	font-size: 1.4em;
+}
+.font_2{
+	font-size: 2.5em;
+}
+
+.dark-slate-blue{
+	color: #483d8b;
+}
+
+.img-lable-one{
+	position: absolute; 
+   top: 67%; 
+   left: 0; 
+   width: 100%; 
+}
+.img-lable-two{
+	position: absolute; 
+   top: 80%; 
+   left: 0; 
+   width: 100%; 
+}
+
+.footer{
+	background-color: #483d8b;
+	color: #ffe4c4;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 620px){
+	.img-lable-one{
+		top: 62%;
+	}
+	.img-lable-two{
+		top:85%;
+	}
+}
+@media only screen and (max-width: 375px){
+	.font_2{
+		font-size: 2.3em;
+	}
+}
