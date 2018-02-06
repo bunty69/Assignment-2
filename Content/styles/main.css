@@ -6,11 +6,6 @@ img {
     margin-top: 5%;
     max-width: 100%;
 }
-
-.my-photo{
-    transform: rotate(-90deg);
-}
-
 body{
 	background-color: #E5E2D3;
 	font-family: cursive;
