@@ -8,7 +8,10 @@ img {
 }
 body{
 	background-color: #E5E2D3;
-	font-family: cursive;
+	font-family: 'Coming Soon', cursive;
+	word-spacing:0.16em;
+	letter-spacing:0.16em;
+	font-weight:600;
 }
 .margin-reset{
 	margin-right: 0;
